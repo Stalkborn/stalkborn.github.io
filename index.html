@@ -7,30 +7,33 @@
     <!-- My css -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>ZULFIKRI RIDHA M</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   </head>
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg shadow-sm bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg shadow-sm bg-secondary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Zulfikri Ridha M | Stalkborn</a>
+        <a class="navbar-brand" href="#" style="color: azure">Zulfikri Ridha M | Stalkborn</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home" style="color: azure">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about" style="color: azure">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects" style="color: azure">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" style="color: azure">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,18 +47,11 @@
       <h1 class="display-4">Zulfikri Ridha M</h1>
       <p class="lead">Freelancer | Content Creator</p>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#b9bbff"
-        fill-opacity="1"
-        d="M0,160L48,144C96,128,192,96,288,80C384,64,480,64,576,96C672,128,768,192,864,213.3C960,235,1056,213,1152,197.3C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg>
     <!-- Akhir Jumbotron -->
 
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-duration="1000">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -68,13 +64,6 @@
           <div class="col-md-4">i'm at Collage now and direction To IT (Information Technology) the university name is Politeknik Aceh Located in Indonesia</div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#b9bbff"
-          fill-opacity="1"
-          d="M0,160L48,144C96,128,192,96,288,80C384,64,480,64,576,96C672,128,768,192,864,213.3C960,235,1056,213,1152,197.3C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <!-- Akhir about -->
 
@@ -82,11 +71,12 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center">
-          <div class="col mb-3">
+          <div class="col mb-3" data-aos="flip-up">
             <h2>My Projects</h2>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
+            <!-- 1 -->
+            <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="100">
               <div class="card">
                 <img src="img/projects/1.jpg" class="card-img-top" alt="Project1" />
                 <div class="card-body">
@@ -95,7 +85,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <!-- 2 -->
+            <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="200">
               <div class="card">
                 <img src="img/projects/2.jpg" class="card-img-top" alt="Project2" />
                 <div class="card-body">
@@ -104,7 +95,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <!-- 3 -->
+            <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="300">
               <div class="card">
                 <img src="img/projects/3.jpg" class="card-img-top" alt="Project3" />
                 <div class="card-body">
@@ -113,7 +105,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <!-- 4 -->
+            <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="400">
               <div class="card">
                 <img src="img/projects/4.jpg" class="card-img-top" alt="Project4" />
                 <div class="card-body">
@@ -122,7 +115,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <!-- 5 -->
+            <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="500">
               <div class="card">
                 <img src="img/projects/5.jpg" class="card-img-top" alt="Project5" />
                 <div class="card-body">
@@ -134,28 +128,35 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,128L60,144C120,160,240,192,360,224C480,256,600,288,720,293.3C840,299,960,277,1080,229.3C1200,181,1320,107,1380,69.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <!--  Akhir Projects -->
 
     <!-- work with -->
-
+    <section>
+      <div id="company">
+        <div class="container">
+          <div class="row text-center" data-aos="flip-up">
+            <h1>Work with</h1>
+          </div>
+          <div class="col text-center" data-aos="zoom-out-down" data-aos-duration="2000">
+            <img src="img/logo/Leolit logo.png" class="img-fluid" alt="leolit" />
+          </div>
+          <div class="col text-center" data-aos="zoom-out-down" data-aos-duration="2000">
+            <img src="img/logo/Sengkala logo.png" class="img-fluid" alt="sengkala" />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Akhir work with -->
 
     <!-- Contact Me -->
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="flip-up">
             <h2><center>Contact Me</center></h2>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-8">
               <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
                 <strong>Thanks!</strong> Your message has been received.
@@ -189,18 +190,23 @@
     </section>
     <!-- Akhir Contact Me -->
 
-    <!-- footer -->
-    <footer class="text-center">
-      <br />
-      <br />
-      <br />
-      <p>Created With ❤️ By <a href="https://www.instagram.com/zulfikri_ridha_m/" class="text-black fw-bold">zulfikri</a></p>
-      <p>Also Known As <a href="https://www.youtube.com/@stalkborn/videos">Stalkborn</a></p>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-secondary">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3" style="color: azure">© 2023 Copyright: ZULFIKRI</div>
+      <!-- Copyright -->
     </footer>
-    <!-- akhir footer -->
+    <!-- Footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/boo tstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Aos Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyt3of5UhcbrxzEC047WZLx449M_7Lfx8hEPP3G-YPHAWYA4VdQhtSCzUSNyrFpubG_/exec";
